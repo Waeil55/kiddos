@@ -1,0 +1,12 @@
+# Cloudflare Tunnel for Kiddos on dr-mariam.com (run with: cloudflared tunnel --config deploy/cloudflared-kiddos.yml run kiddos)
+# TutorIa keeps its own tunnel ("tutoria", ~/.cloudflared/config.yml) and stays reachable at live.dr-mariam.com.
+tunnel: b6258cb7-cc3d-4145-a21f-76cf12c078c4
+credentials-file: C:\Users\waeil\.cloudflared\b6258cb7-cc3d-4145-a21f-76cf12c078c4.json
+ingress:
+  - hostname: kiddos.dr-mariam.com
+    service: http://127.0.0.1:8790
+  - hostname: dr-mariam.com
+    service: http://127.0.0.1:8790
+  - hostname: www.dr-mariam.com
+    service: http://127.0.0.1:8790
+  - service: http_status:404

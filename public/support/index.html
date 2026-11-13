@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#1fb8a6" />
+<title>Kiddos Support</title>
+<style>
+  :root {
+    --bg: #f3fbf9; --card: #ffffff; --ink: #23314a; --muted: #5b6b80; --line: #d5e3df;
+    --teal: #1fb8a6; --teal-ink: #0c6f64; --sun: #fff4cc; --sun-line: #f2d675;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #13202a; --card: #1b2b37; --ink: #e8f1f4; --muted: #a8b8c4; --line: #2c4050;
+      --teal: #36cdb9; --teal-ink: #7fe3d5; --sun: #3a3418; --sun-line: #6b5c20;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  .back { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--teal-ink); text-decoration: none; padding: 10px 14px; border-radius: 999px; background: var(--card); border: 2px solid var(--line); }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  header.top { text-align: center; margin: 20px 0 8px; }
+  .logo { font-size: 3rem; line-height: 1; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 8px 0 4px; }
+  h2 { font-size: 1.3rem; margin: 0 0 8px; }
+  section { background: var(--card); border: 2px solid var(--line); border-radius: 20px; padding: 18px 20px; margin: 16px 0; }
+  .contact { background: var(--sun); border-color: var(--sun-line); text-align: center; }
+  .mail { display: inline-block; font-weight: 800; font-size: 1.15rem; color: var(--teal-ink); word-break: break-all; }
+  details { border-top: 1px solid var(--line); padding: 10px 0; }
+  details:first-of-type { border-top: none; }
+  summary { cursor: pointer; font-weight: 700; padding: 4px 0; }
+  details p, details ol, details ul { margin: 8px 0; }
+  ol, ul { padding-left: 22px; }
+  p { margin: 8px 0; }
+  a { color: var(--teal-ink); }
+  .muted { color: var(--muted); }
+  footer { text-align: center; color: var(--muted); margin-top: 24px; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">&larr; Back to Kiddos</a>
+
+  <header class="top">
+    <div class="logo" aria-hidden="true">🦊💬</div>
+    <h1>Kiddos Support</h1>
+    <p class="muted">Help for parents, carers and teachers</p>
+  </header>
+
+  <section class="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact us</h2>
+    <p>Questions, problems, ideas or privacy requests? Email us and a real person will reply, usually within two working days.</p>
+    <p><a class="mail" href="mailto:waeil.dev@gmail.com">waeil.dev@gmail.com</a></p>
+    <p class="muted">Please don't include your child's full name, address or photos in your email.</p>
+  </section>
+
+  <section aria-labelledby="report-h">
+    <h2 id="report-h">Report an answer</h2>
+    <p>Kiddos checks every AI answer with a safety filter, but AI can still get things wrong. If the buddy says something incorrect, confusing or not right for a child:</p>
+    <ol>
+      <li>In the lesson, tap <strong>🙋 Tell a grown-up</strong> under the buddy. This sends us the buddy's last answer and your child's last words, with your child's name replaced by a placeholder.</li>
+      <li>You'll see "Thanks! A grown-up will look." We review every report and use it to improve the buddy.</li>
+      <li>If you want a reply, also email <a href="mailto:waeil.dev@gmail.com">waeil.dev@gmail.com</a> with the date, the subject and what the buddy said.</li>
+    </ol>
+    <p class="muted">Reports are kept for 90 days, then deleted.</p>
+  </section>
+
+  <section aria-labelledby="faq-h">
+    <h2 id="faq-h">Frequently asked questions</h2>
+
+    <details>
+      <summary>What ages is Kiddos for?</summary>
+      <p>Children aged 3 to 12. Each child gets a profile with their age and grade, and lessons adjust their level as your child answers.</p>
+    </details>
+
+    <details>
+      <summary>Do I need an account?</summary>
+      <p>No. There are no accounts or sign-ins. Your parent details, PIN and every child's progress are saved only on your device.</p>
+    </details>
+
+    <details>
+      <summary>How do I turn the AI tutor on or off?</summary>
+      <p>Open the parent area (the parent button, then your PIN) and find the AI tutor setting. It is off until you turn it on after reading what is shared. With it off, your child still gets full lessons from the built-in lesson engine, and the AI story maker is off too.</p>
+    </details>
+
+    <details>
+      <summary>Does the AI know my child's name?</summary>
+      <p>No. The app sends the placeholder <code>{name}</code> instead of the name, and puts the real name back in on your device when the answer arrives. See the <a href="../privacy/index.html">privacy policy</a> for exactly what is shared.</p>
+    </details>
+
+    <details>
+      <summary>What is "cloud voice"?</summary>
+      <p>Cloud voice makes the buddies sound natural by creating their voice on a speech service. Turn it off in the parent area and Kiddos uses the voice built into your device instead. Sentences that include your child's name are never saved by our voice cache.</p>
+    </details>
+
+    <details>
+      <summary>The microphone doesn't work.</summary>
+      <ul>
+        <li>Check that Kiddos is allowed to use the microphone (and speech recognition on iPhone and iPad) in your device settings.</li>
+        <li>On the web, use Chrome, Edge or Safari, and allow the microphone when asked.</li>
+        <li>Speak close to the device in a quiet room. Your child can always tap the picture cards or type instead.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>The buddy has no voice or sounds robotic.</summary>
+      <p>Turn up the volume and check the device isn't on silent. If cloud voice is off or not reachable, Kiddos uses your device's built-in voice, which can sound more robotic. On iPhone and iPad you can download better voices in Settings, Accessibility, Spoken Content, Voices.</p>
+    </details>
+
+    <details>
+      <summary>Does Kiddos work offline?</summary>
+      <p>Yes. Lessons, games, tracing and the built-in story library work without internet. The AI tutor, AI stories and cloud voice need a connection, and Kiddos switches to its built-in lessons and device voice when there isn't one.</p>
+    </details>
+
+    <details>
+      <summary>How do I set screen time and bedtime?</summary>
+      <p>In the parent area you can set a daily time limit for each child and a bedtime lock that pauses the app between the times you choose.</p>
+    </details>
+
+    <details>
+      <summary>I forgot my parent PIN.</summary>
+      <p>For privacy, the PIN is stored only on your device as a one-way code, so we can't see or reset it. Deleting and reinstalling the app resets it, but also removes all progress on that device.</p>
+    </details>
+
+    <details>
+      <summary>How do I delete my data?</summary>
+      <p>In the parent area, use <strong>Erase all data</strong> to remove every profile, all progress and the parent details from the device, or remove a single child. Deleting the app also removes everything. To ask us to delete a report you sent, email <a href="mailto:waeil.dev@gmail.com">waeil.dev@gmail.com</a>.</p>
+    </details>
+
+    <details>
+      <summary>Are there ads or in-app purchases?</summary>
+      <p>No ads, no in-app purchases, no tracking and no chatting with other people.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p><a href="../privacy/index.html">Privacy policy</a></p>
+    <a class="back" href="../index.html">&larr; Back to Kiddos</a>
+    <p>Kiddos by Agape Care</p>
+  </footer>
+</main>
+</body>
+</html>
