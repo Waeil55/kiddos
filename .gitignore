@@ -16,3 +16,6 @@ android/keystore.properties
 *.jks
 android/app/src/main/assets/public
 android/app/src/main/assets/capacitor.config.json
+
+# The review contact phone is kept out of this public repo (it comes from a GitHub secret).
+fastlane/metadata/review_information/phone_number.txt

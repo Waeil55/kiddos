@@ -29,7 +29,10 @@ jobs:
           ruby -rjson -e 'puts JSON.generate({key_id: ENV["ASC_KEY_ID"], issuer_id: ENV["ASC_ISSUER_ID"], key: ENV["ASC_KEY_P8"], in_house: false})' > "$RUNNER_TEMP/keys/asc.json"
 
       - name: Upload listing and screenshots
+        env:
+          REVIEW_PHONE: ${{ secrets.REVIEW_PHONE }}
         run: |
+          printf '%s' "$REVIEW_PHONE" > fastlane/metadata/review_information/phone_number.txt
           fastlane deliver \
             --api_key_path "$RUNNER_TEMP/keys/asc.json" \
             --app_identifier care.agape.kiddos \
