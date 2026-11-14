@@ -1,0 +1,5 @@
+No login is needed. On first launch, tap "Get started", answer the grown-up question (a multiplication), make any 4-digit parent PIN, tick the consent box, then add a child. Tap a subject on the child's home screen to start a lesson. The built-in lessons work offline.
+
+The AI tutor is off by default. A parent can turn it on in Parent dashboard > Settings > "AI tutor and AI stories" after reading a disclosure (it uses Anthropic's Claude; the child's name is replaced by a placeholder before anything is sent). To let the child answer by voice, a parent taps "Allow microphone" in Settings; the microphone and speech recognition are never requested in the child area. The "Tell a grown-up" button in a lesson reports a buddy answer for review.
+
+No ads, no in-app purchases, no third-party analytics or tracking.

@@ -1,0 +1,23 @@
+Kiddos is a friendly study buddy for children aged 3 to 12. Your child picks one of ten animal buddies and learns by talking and tapping. The buddy answers out loud, points at pictures, writes on a whiteboard and adapts to your child's level.
+
+WHAT KIDS LEARN
+- Reading and phonics with read-along stories
+- 110 reading comprehension passages with questions
+- Math practice and a quick math game
+- Letter and number tracing
+- Science, the world around us, and curious questions
+
+BUILT FOR PARENTS
+- Parent area protected by a PIN
+- A separate profile for each child
+- Daily time limits, bedtime and subject controls
+- Progress and skills for each child
+- The AI tutor stays off until you turn it on
+
+SAFE BY DESIGN
+- No ads, no in-app purchases, no tracking
+- Profiles and progress are saved on your device
+- With your permission, the AI buddy is powered by Anthropic's Claude. Your child's name is never sent to the AI, replies are filtered for children, and any answer can be reported.
+- Kiddos does not record or store your child's voice
+
+The built-in lessons work offline. The AI tutor and the studio voices need an internet connection.
